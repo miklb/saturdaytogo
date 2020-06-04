@@ -1,0 +1,86 @@
+.flip-card {
+    width: 200px;
+    height: 200px;
+    -webkit-perspective: 1000;
+            perspective: 1000;
+  }
+  .flip-card__flipper {
+    -webkit-transition: -webkit-transform 600ms ease-in-out;
+    transition: -webkit-transform 600ms ease-in-out;
+    transition: transform 600ms ease-in-out;
+    transition: transform 600ms ease-in-out, -webkit-transform 600ms ease-in-out;
+    -webkit-transform-style: preserve-3d;
+            transform-style: preserve-3d;
+    position: relative;
+  }
+  .flip-card__front, .flip-card__back {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 2rem;
+    width: 200px;
+    height: 200px;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition: width 600ms ease-in-out, height 600ms ease-in-out, top 600ms ease-in-out, left 600ms ease-in-out;
+    transition: width 600ms ease-in-out, height 600ms ease-in-out, top 600ms ease-in-out, left 600ms ease-in-out;
+  }
+  .flip-card__front {
+    -webkit-transform: rotateY(0deg);
+            transform: rotateY(0deg);
+    background-color: #0099ff;
+  }
+  .flip-card__back {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+    background-color: #ff9900;
+  }
+  .flip-card:hover .flip-card__flipper, .flip-card.hover .flip-card__fliper {
+    -webkit-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+  }
+  .flip-card:hover .flip-card__flipper .flip-card__back, .flip-card.hover .flip-card__flipper .flip-card__back {
+    top: -30px;
+    left: -30px;
+    width: 260px;
+    height: 260px;
+  }
+  
+  /**
+   * Page theme
+   */
+  h1, h2, h3, h4, h5, h6, p, pre, main {
+    margin: 2rem auto;
+    max-width: 640px;
+  }
+
+ header {
+    font-family: 'Ribeye', cursive;
+    text-align: center;
+    font-size: 2.4rem;
+  }
+
+  .description {
+    font-size: 1.6rem;
+  }
+  
+  hr {
+    height: 1px;
+    border: 0;
+    background-color: #000;
+  }
+  
+
+  
+  main {
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    padding: 1rem;
+  }
+  
+  
