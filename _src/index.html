@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Saturday ToGo</title>
     <link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 
 </head>
 <body>
@@ -15,7 +15,7 @@
         <p class="description">Support a Local Minority Owned Business Every Saturday.</p>
     </header>
     <main>
-      <p>Check back soon.</p>
+      @@loop("h-card.html", "restaurant.json")
     </main>
 </body>
 </html>

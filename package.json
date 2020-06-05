@@ -1,0 +1,31 @@
+{
+  "name": "saturdaytogo",
+  "version": "0.1.0",
+  "description": "Microsite for Saturday To Go promotion.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miklb/saturdaytogo.git"
+  },
+  "author": "Michael Bishop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miklb/saturdaytogo/issues"
+  },
+  "homepage": "https://github.com/miklb/saturdaytogo#readme",
+  "devDependencies": {
+    "css-declaration-sorter": "^5.1.2",
+    "cssnano": "^4.1.10",
+    "del": "^4.1.1",
+    "gulp": "^4.0.2",
+    "gulp-file-include": "^2.2.2",
+    "gulp-load-plugins": "^2.0.3",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-preset-env": "^6.7.0"
+  }
+}
