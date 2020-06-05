@@ -1,0 +1,106 @@
+[
+    {
+        "name": "Blind Tiger Cafe (Seminole Heights)",
+        "phone": "813-543-2233",
+        "url": " http://www.blindtigercafe.com",
+        "street": "4304 N Florida Ave.",
+        "city": "Tampa",
+        "zip": "33604"
+    },
+    {
+        "name": "Grain and Berry (South Tampa)",
+        "phone": "813-281-1011",
+        "url": "https://grainandberry.revelup.com/weborder/?establishment=7",
+        "street": "1155 S Dale Mabry Hwy",
+        "city": "Tampa",
+        "zip": "33629"
+    },
+    {
+        "name": "Gaston Culinary Services",
+        "phone": "813-280-2257",
+        "url": " https://www.gastonsculinaryservices.com",
+        "street": "2802 North 16th Street,",
+        "city": "Tampa",
+        "zip": "33605" 
+    },
+    {
+        "name": "Open Cafe (East Tampa)",
+        "phone": "813-310-2820 ",
+        "url": "https://www.facebook.com/pages/The-Open-Cafe/137625219664644",
+        "street": "3222 N 34th St",
+        "city": "Tampa",
+        "zip": "33605" 
+    },
+    {
+        "name": "7th & Grove (Ybor City)",
+        "phone": "813-649-8422",
+        "url": "https://www.facebook.com/7thandGrove/",
+        "street": "1930 E 7th Ave",
+        "city": "Tampa",
+        "zip": "33605" 
+    },
+    {
+        "name": "Charlotin’s Kitchen (Wesley Chapel)",
+        "phone": "813-563-9782",
+        "url": "https://www.facebook.com/charlotinskitchen/",
+        "street": "",
+        "city": "",
+        "zip": ""
+    },
+    {
+        "name": "LivyO’s Catering Company (Brandon)",
+        "phone": "813-494-0820",
+        "url": "https://www.ezcater.com/catering/livy-os-catering-co-3",
+        "street": "905 E Brandon Blvd",
+        "city": "Brandon",
+        "zip": "33511" 
+    },
+    {
+        "name": "Rack City Ribz (Gibsonton)",
+        "phone": "813-352-3418",
+        "url": "http://www.rackcityribz.com",
+        "street": "",
+        "city": "",
+        "zip": ""
+    },
+    {
+        "name": "Thee Burger Spot (Tampa Heights)",
+        "phone": "813-993-3926",
+        "url": "https://www.theeburgerspot.com",
+        "street": "3917 N. Tampa St.",
+        "city": "Tampa",
+        "zip": "33610" 
+    },
+    {
+        "name": "Flavaz Jamaican Grill (Riverview)",
+        "phone": "813-488-5114",
+        "url": "https://www.flavazjamaicangrille.com",
+        "street": "6467 US 301 S",
+        "city": "Riverview",
+        "zip": "33578" 
+    },
+    {
+        "name": "M&R Cafe (East Tampa)",
+        "phone": "813-234-2233",
+        "url": "https://mnrcafe.smartonlineorder.com/",
+        "street": "3320 E Osborne Ave",
+        "city": "Tampa",
+        "zip": "33610" 
+    },
+    {
+        "name": "Konan’s BBQ (Carver City)",
+        "phone": "813-870-0404",
+        "url": "https://www.konansbbqtampa.com",
+        "street": "1510 N. Hubert Ave",
+        "city": "Tampa",
+        "zip": "33607" 
+    },
+    {
+        "name": "Vegg’d Out Vegan Kitchen (North Tampa)",
+        "phone": "813-361-0841",
+        "url": "https://www.facebook.com/VeggdOutVegan/",
+        "street": "11780 N. Dale Mabry Hwy",
+        "city": "Tampa",
+        "zip": "33618" 
+    }
+]
