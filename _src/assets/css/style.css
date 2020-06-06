@@ -32,19 +32,21 @@
 
   .restaurant a {
     display: block;
-<<<<<<< HEAD
+    padding-bottom: .5em;
   }
 
-  .restaurant a {
-    display: block;
-=======
->>>>>>> 30638e2cdb30b910cd1a6b33e0ffa7388a66f985
+  .restaurant h2 {
+    font-family: Ribeye, cursive;
   }
 
   @media (min-width: 60em) {
     .restaurant {
       width: 50%;
     }
+  }
+
+  .address {
+    font-size: 1.4em;
   }
 
   .p-tel, p-url {
