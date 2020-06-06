@@ -43,7 +43,7 @@ function browserSyncReload(done) {
 
 // Clean assets
 function clean() {
-  return plugin.del(["./_site/assets/"]);
+  return plugin.del(["./_site/assets/css"]);
 }
 
 // CSS task using PostCSS
