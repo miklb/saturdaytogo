@@ -16,6 +16,7 @@
     
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
     justify-content: space-between;
     padding: 1rem;
   }
@@ -24,8 +25,16 @@
     width: 100%;
   }
  
+ .restaurant a {
+    display: block;
+  }
+ 
  @media (min-width: 60em) {
     .restaurant {
       width: 50%;
     }
+  }
+ 
+ .p-tel, p-url {
+    display: block;
   }
