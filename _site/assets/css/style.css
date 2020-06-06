@@ -23,6 +23,11 @@
  
  .restaurant {
     width: 100%;
+    text-align: center;
+  }
+ 
+ .restaurant img {
+    height: 200px;
   }
  
  .restaurant a {

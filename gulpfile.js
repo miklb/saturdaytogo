@@ -65,6 +65,55 @@ function css() {
     .pipe(gulp.dest("./_site/assets/css/"))
 }
 
+function images() {
+  return gulp
+    .src('_src/assets/img/*.{jpg,png}')
+    .pipe(
+      plugin.responsive({
+        // Convert all images to JPEG format
+        '*': [
+          {
+            // image-medium.jpg is 375 pixels wide
+            width: 375,
+            rename: {
+              suffix: '-medium',
+              extname: '.jpg'
+            }
+          },
+          {
+            // image-large.jpg is 480 pixels wide
+            width: 480,
+            rename: {
+              suffix: '-large',
+              extname: '.jpg'
+            }
+          },
+          {
+            // image-extralarge.jpg is 768 pixels wide
+            width: 768,
+            rename: {
+              suffix: '-extralarge',
+              extname: '.jpg'
+            }
+          }
+        ]
+      },
+      {
+        // Global configuration for all images
+        // The output quality for JPEG, WebP and TIFF output formats
+        quality: 70,
+        // Use progressive (interlace) scan for JPEG and PNG output
+        progressive: true,
+        // Zlib compression level of PNG output format
+        compressionLevel: 6,
+        // Strip all metadata
+        withMetadata: false
+      }
+      )
+    )
+    .pipe(gulp.dest('./_site/assets/img'))
+}
+
 
 // Watch files
 function watchFiles() {
@@ -91,7 +140,7 @@ function fileInclude() {
 }
 
 // define complex tasks
-const build = gulp.series(clean, css, fileInclude);
+const build = gulp.series(clean, css, fileInclude );
 const watch = gulp.series(clean, css, fileInclude, gulp.parallel(watchFiles, browserSync));
 
 // export tasks
@@ -102,3 +151,4 @@ exports.clean = clean;
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
+exports.images = images;
