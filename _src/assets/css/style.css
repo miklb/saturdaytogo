@@ -1,9 +1,7 @@
-
-  h1, h2, h3, h4, h5, h6, p, pre, main {
-    margin: 2rem auto;
-    max-width: 640px;
-  }
-
+ body {
+  margin: 0 auto;
+ }
+ 
  header {
     font-family: 'Ribeye', cursive;
     text-align: center;
@@ -15,10 +13,21 @@
   }
  
   main {
+    
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding: 1rem;
+  }
+
+  .restaurant {
+    width: 100%;
+  }
+
+  @media (min-width: 60em) {
+    .restaurant {
+      width: 33%;
+    }
   }
   
   
