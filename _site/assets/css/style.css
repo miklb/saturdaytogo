@@ -34,6 +34,10 @@
     display: block;
   }
  
+ .restaurant a {
+    display: block;
+  }
+ 
  @media (min-width: 60em) {
     .restaurant {
       width: 50%;
